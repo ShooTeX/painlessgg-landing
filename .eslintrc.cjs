@@ -1,7 +1,11 @@
 /** @type {import("@types/eslint").ESLint.ConfigData} */
 
 module.exports = {
-  extends: ["plugin:prettier/recommended", "plugin:astro/recommended"],
+  extends: [
+    "plugin:tailwindcss/recommended",
+    "plugin:prettier/recommended",
+    "plugin:astro/recommended",
+  ],
   overrides: [
     {
       files: ["*.astro"],
