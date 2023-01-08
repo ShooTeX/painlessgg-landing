@@ -4,6 +4,6 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://painless.gg",
+  site: "https://www.painless.gg",
   integrations: [tailwind(), sitemap()]
 });
